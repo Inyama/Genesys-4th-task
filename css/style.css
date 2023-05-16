@@ -144,7 +144,7 @@ body {
     width: 100%;
 }
 
-.gallery {
+/* .gallery {
     padding: 60px 0;
   }
   
@@ -179,7 +179,51 @@ body {
   
   .gallery img {
     transition: all 0.4s ease-in-out;
+  } */
+
+  .square-holder {
+    padding:12px;
+    border: none;
+    align-items: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+    background-color:#f1f1f1;
+    min-height:200px
   }
+  
+  .square-holder img {
+    max-width:80%;
+    filter: grayscale(100%);
+    transition: all 0.3s;
+  }
+  
+  .square-holder:hover img{
+    filter:none;
+  }
+
+  .texts h2{
+    font-weight: bold;
+  }
+
+  .small h2 {
+    font-size: 25px;
+    margin: 10px 30px;
+    font-weight: bolder;
+    text-align: left;
+  }
+  .small p{
+    margin: 10px 30px;
+    padding-right: 70px;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: left;
+  }
+  .col-lg-3 {
+    width: 25% !important;
+}
+
   .dark{
     background: #000000 !important;
     color: #ffff;
